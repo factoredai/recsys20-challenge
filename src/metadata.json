@@ -1,0 +1,67 @@
+{
+    "categorical_features_sizes": {
+        "tweetEncoded_cat": 4,
+        "languageEncoded_cat": 32,
+        "tweet_timestamp_day_of_week_cat": 8,
+        "tweet_timestamp_hour_cat": 25,
+        "engaged_with_user_follower_count_q_cat": 50,
+        "engaged_with_user_following_count_q_cat": 50,
+        "engaged_with_user_account_creation_q_cat": 50,
+        "engaging_user_follower_count_q_cat": 50,
+        "engaging_user_following_count_q_cat": 50,
+        "engaging_user_account_creation_q_cat": 50
+    },
+    "tweet_cat_cols": {
+        "tweetEncoded_cat":4,
+        "languageEncoded_cat":32,
+        "tweet_timestamp_day_of_week_cat":8,
+        "tweet_timestamp_hour_cat":25,
+        "cluster_cat":151
+    },
+    "author_cat_cols": {
+        "engaged_with_user_follower_count_q_cat":50,
+        "engaged_with_user_following_count_q_cat":50,
+        "engaged_with_user_account_creation_q_cat":50
+    },
+    "engager_cat_cols": {
+        "engaging_user_follower_count_q_cat": 50,
+        "engaging_user_following_count_q_cat":50,
+        "engaging_user_account_creation_q_cat":50
+    },
+    "bool_features": [
+        "engaged_with_user_is_verified_bool",
+        "engaging_user_is_verified_bool",
+        "engagee_follows_engager_bool"
+    ],
+    "num_features": [
+        "hashtagSumCount_ss_num",
+        "hashtagCount_ss_num",
+        "domainCount_ss_num",
+        "tweet_timestamp_to_engagee_account_creation_ss_num",
+        "tweet_timestamp_to_engaging_account_creation_ss_num",
+        "engaged_with_vs_engaging_follower_diff_log_ss_num",
+        "engaged_with_vs_engaging_following_diff_log_ss_num",
+        "engaged_follow_diff_log_ss_num",
+        "engaging_follow_diff_log_ss_num",
+        "engaged_follower_diff_engaging_following_log_ss_num",
+        "engaged_following_diff_engaging_follower_log_ss_num",
+        "engaged_with_user_follower_count_log_ss_num",
+        "engaging_user_follower_count_log_ss_num",
+        "engaged_with_user_following_count_log_ss_num",
+        "engaging_user_following_count_log_ss_num",
+        "PhotoCount_ss_num",
+        "VideoCount_ss_num",
+        "GIFCount_ss_num",
+        "linkCount_ss_num",
+        "total_appearance_ss_num",
+        "perc_n_interactions_ss_num",
+        "perc_n_commented_ss_num",
+        "perc_n_liked_ss_num",
+        "perc_n_replied_ss_num",
+        "perc_n_retweeted_ss_num"
+    ],
+    "tweet_text_size": 119547,
+    "hashtag_size": 13002,
+    "domain_size": 3002,
+    "num_user_buckets": 233200
+}

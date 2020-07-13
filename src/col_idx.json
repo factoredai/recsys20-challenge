@@ -1,0 +1,105 @@
+{
+    "lab": {
+        "indicator_reply": 39,
+        "indicator_retweet": 40,
+        "indicator_retweet_with_comment": 41,
+        "indicator_like": 42
+    },
+    "id_cols": [
+        0,
+        2,
+        4
+    ],
+    "txt": [
+        1
+    ],
+    "author_bool_cols": [
+        3
+    ],
+    "engager_bool_cols": [
+        5
+    ],
+    "interaction_bool_cols": [
+        6
+    ],
+    "hsh": [
+        7
+    ],
+    "tweet_num_cols": [
+        8,
+        9,
+        11,
+        28,
+        29,
+        30,
+        31
+    ],
+    "dom": [
+        10
+    ],
+    "tweet_cat_cols": [
+        12,
+        13,
+        14,
+        15,
+        46
+    ],
+    "interaction_num_cols": [
+        18,
+        19,
+        22,
+        23
+    ],
+    "author_num_cols": [
+        20,
+        24,
+        26
+    ],
+    "engager_num_cols": [
+        21,
+        25,
+        27
+    ],
+    "author_cat_cols": [
+        34
+    ],
+    "engager_cat_cols": [
+        37
+    ],
+    "new_features": [
+        38,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+    ],
+    "bucket": [
+        44,
+        45
+    ],
+    "engager_topic_cat": [
+        47,
+        48,
+        49,
+        50,
+        51
+    ],
+    "engager_topic_count": [
+        52,
+        53,
+        54,
+        55,
+        56
+    ],
+    "engaging_follows_engaged": [
+        65
+    ],
+    "bucket_2": [
+        66,
+        67
+    ]
+}
